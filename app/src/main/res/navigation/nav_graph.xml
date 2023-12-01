@@ -25,4 +25,9 @@
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+    <activity
+        android:id="@+id/onboardingActivity"
+        android:name="com.daviddev.discountsapp.OnboardingActivity"
+        android:label="activity_onboarding"
+        tools:layout="@layout/activity_onboarding" />
 </navigation>
